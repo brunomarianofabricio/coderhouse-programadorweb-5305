@@ -80,10 +80,10 @@
 // console.log(obj1 !== obj2); //false
 
 ////Mayor o Mayor e igual
-// var number = 5;
-// console.log('7' > number); //true
-// console.log('Ana' > 'Pedro'); //false A = 65 P = 80
-// console.log('Ana' > 'Alan'); //true
+var number = 5;
+console.log('7' > number); //true
+console.log('Ana' > 'Pedro'); //false A = 65 P = 80
+console.log('Ana' > 'Alan'); //true
 
 // console.log('5' >= number); //true
 // console.log('Ana' >= 'Pedro'); //false
