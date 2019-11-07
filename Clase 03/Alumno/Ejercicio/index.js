@@ -26,29 +26,29 @@ switch (dia) {
 
         case 'lunes':
           console.log('Es un dia habil'); 
-            break;
+          break;
 
         case 'Martes':
             console.log('Es un dia habil');
             break;
 
         case 'Miercoles':
-                console.log('Es un dia habil');
-                break;
+            console.log('Es un dia habil');
+            break;
 
         
-         case 'Miércoles':
-                console.log('Es un dia habil');
-                break;
+        case 'Miércoles':
+            console.log('Es un dia habil');
+            break;
         
         case 'Jueves':
-                console.log('Es un dia habil');
-                break;
+            console.log('Es un dia habil');
+            break;
 
          
        case 'Viernes':
-                 console.log('Es un dia habil');
-                 break;
+            console.log('Es un dia habil');
+            break;
         
         case 'Sabado':
             console.log('Es fin de semana');
@@ -60,9 +60,9 @@ switch (dia) {
 
         default:
             console.log('Dia no hábil');
-            break;
+            
 
 
-}
+        }
 
 }
