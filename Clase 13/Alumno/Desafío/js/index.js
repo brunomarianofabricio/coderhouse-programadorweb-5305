@@ -1,6 +1,7 @@
 let txtFirstName = $('#firstName');
 let txtMail = $('#email');
 let txtComments = $('#comments');
+let habilitarBoton = $('#submitButton');
 
 $(document).on('input','#email',validarMail);
 $(document).on('input','#firstName',validarNombre);
