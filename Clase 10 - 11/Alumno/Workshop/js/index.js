@@ -17,6 +17,7 @@ let txtDniAEliminar = document.getElementById('dniInputEliminar');
 //input para buscar un alumno
 let txtNombreABuscar = document.getElementById('txtnombreABuscar');
 
+
 txtprimerNombre.addEventListener('blur', validarNombre);
 txtnumeroDocumento.addEventListener('blur', validarDni);
 txtapellido.addEventListener('blur', validarApellido);
