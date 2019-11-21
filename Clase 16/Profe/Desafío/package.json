@@ -1,7 +1,7 @@
 {
-  "name": "desafio",
+  "name": "workshop-final",
   "version": "1.0.0",
-  "description": "",
+  "description": "Workshop-final 2019",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
@@ -17,14 +17,10 @@
   },
   "devDependencies": {
     "copy-webpack-plugin": "^5.0.5",
-<<<<<<< HEAD
-    "html-loader": "^0.5.5",
-=======
     "css-loader": "^3.2.0",
     "file-loader": "^4.2.0",
     "html-loader": "^0.5.5",
     "style-loader": "^1.0.0",
->>>>>>> upstream/master
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0"

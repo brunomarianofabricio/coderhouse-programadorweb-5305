@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-var CopyWebpackPlugin = require('copy-webpack-plugin')
-var webpack = require('webpack')
-
-var path = require('path')
-
-module.exports = {
-  entry: [ './src/js/index.js' ],
-=======
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 var webpack = require('webpack');
 
@@ -14,7 +5,6 @@ var path = require('path');
 
 module.exports = {
   entry: ['./src/js/index.js'],
->>>>>>> upstream/master
   output: {
     filename: 'js/index.js',
     path: path.resolve(__dirname, 'public')
@@ -31,11 +21,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-<<<<<<< HEAD
-        use: [ 'style-loader', 'css-loader' ]
-=======
         use: ['style-loader', 'css-loader']
->>>>>>> upstream/master
       },
       {
         test: /\.(png|jpg|gif|svg|ico|jpeg)$/,
@@ -66,8 +52,4 @@ module.exports = {
       jQuery: 'jquery'
     })
   ]
-<<<<<<< HEAD
-}
-=======
 };
->>>>>>> upstream/master
